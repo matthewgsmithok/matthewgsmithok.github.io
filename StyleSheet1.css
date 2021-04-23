@@ -1,0 +1,78 @@
+﻿/*You use this for a comment "/*..." => use this to close => */
+/* to get a photo without photo shop press F12 and change the nav of the HTML to remove the watermark */
+
+body {
+   background-color: lightblue;
+}
+
+/* nav = */
+nav{
+    background-color: lightskyblue;
+    float:left;
+    height: 100vh;
+}
+
+/* ul = */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* li = list     a = anchor */
+li a{
+    margin: 5px;
+    padding: 1em 1.5em; /* does padding based off of the font used*/
+    background-color: white;
+    display: block; /* this makes it to where the links are then buttons that cannot stack on top of one another*/
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: midnightblue;
+    border-radius: 50px;
+}
+
+li a:visited{
+    color: rebeccapurple;
+}
+
+li a:active{
+    color: ghostwhite;
+}
+
+li a:hover{
+    background-color: dimgrey;
+}
+
+img{
+    display:block;
+    margin: 25px;
+}
+
+h1{
+    margin: 25px;
+}
+
+.main{
+    margin: 25px;
+    float: left;
+}
+
+#Information {
+    background-color: lightblue;
+    border: solid 5px lightskyblue;
+    box-shadow: 0 4px 80px 0 rgba(0,0,0,0.2);
+    margin: 25px;
+    padding: 15px;
+    display: block;
+    width: 250px;
+}
+
+#Information:hover{
+    transition:transform 2.5s ease-in-out;
+    /*transform: rotate(-360deg) scale(2);*/
+}
+
+
+
