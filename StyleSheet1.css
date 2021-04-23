@@ -74,5 +74,11 @@ h1{
     /*transform: rotate(-360deg) scale(2);*/
 }
 
+.container{
+    float: left;
+}
 
+li{
+    padding-left: 50px;
+}
 
